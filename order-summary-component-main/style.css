@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(195, 198, 199, 0.767);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.card{
+            width: 400px;
+            height: 600px;
+            border-radius: 20px;
+            background-color: aliceblue;
+            box-shadow: -0.1px 10px 20px rgb(141, 139, 146);
+            z-index: 1;
+}
+
+.cartoon-pc{
+    width: 100%;
+    height: 30%;
+    /* background-image: url(images/illustration-hero.svg); */
+    
+    background-size: cover;
+}
+img{
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text{
+    height: 70%;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.many-words{
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(168, 164, 164);
+}
+.payment{
+    width: 80%;
+    height: 70px;
+    background-color: rgba(255, 241, 241, 0.459);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment:hover{
+    background-color: rgba(153, 153, 153, 0.459);
+}
+i img{
+    width: 40px;
+    height: 40px;
+    /* margin-right: 100px; */
+    margin-top: 10px;
+}
+i img:hover{
+    transform: scale(1.5);
+}
+a{
+    text-decoration: underline;
+    margin-left: 20px;
+    color: blue;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+}
+span{
+    display: block;
+}
+.payment p {
+    margin-right: 80px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.payment p span{
+    color: rgb(136, 136, 136);
+    font-size: smaller;
+}
+.big-bluebtn{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(69, 0, 230);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 5px 5px 20px rgb(69, 0, 230);
+}
+.big-bluebtn:hover{
+    background-color: rgb(46, 0, 155);
+}
+.cance{
+    margin-top: 30px;
+    color: rgb(136, 136, 136);
+    font-weight: 200;
+}
+@media (max-width: 600px) {
+    body{
+        background-color: rgba(159, 236, 250, 0.582);
+        background-image: url(images/pattern-background-desktop.sv);
+    }
+}
